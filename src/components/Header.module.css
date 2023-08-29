@@ -1,0 +1,37 @@
+.header{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header img {
+    background-color: rgb(255, 255, 255);
+}
+
+.header input{
+    background-color: rgba(229, 238, 245, 0.806);
+    border-radius: 5px;
+    border: none;
+    height: 50%;
+    width: 40%;
+}
+
+.header ul li {
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    color: black;
+    display: flex;
+}
+
+.header ul li img:hover{
+    cursor: pointer;
+}
+
+.header ul li a{
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
